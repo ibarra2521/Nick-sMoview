@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417CD9D427012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9C127012FD8002C6F4E /* Nick_sMovieApp.swift */; };
+		417CD9D527012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9C127012FD8002C6F4E /* Nick_sMovieApp.swift */; };
+		417CD9D627012FD9002C6F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9C227012FD8002C6F4E /* ContentView.swift */; };
+		417CD9D727012FD9002C6F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9C227012FD8002C6F4E /* ContentView.swift */; };
+		417CD9D827012FD9002C6F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417CD9C327012FD9002C6F4E /* Assets.xcassets */; };
+		417CD9D927012FD9002C6F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417CD9C327012FD9002C6F4E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		417CD9C127012FD8002C6F4E /* Nick_sMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nick_sMovieApp.swift; sourceTree = "<group>"; };
+		417CD9C227012FD8002C6F4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		417CD9C327012FD9002C6F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417CD9C827012FD9002C6F4E /* Nick'sMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nick'sMovie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417CD9CB27012FD9002C6F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417CD9D027012FD9002C6F4E /* Nick'sMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nick'sMovie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417CD9D227012FD9002C6F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417CD9D327012FD9002C6F4E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417CD9C527012FD9002C6F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417CD9CD27012FD9002C6F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417CD9BB27012FD7002C6F4E = {
+			isa = PBXGroup;
+			children = (
+				417CD9C027012FD8002C6F4E /* Shared */,
+				417CD9CA27012FD9002C6F4E /* iOS */,
+				417CD9D127012FD9002C6F4E /* macOS */,
+				417CD9C927012FD9002C6F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417CD9C027012FD8002C6F4E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				417CD9C127012FD8002C6F4E /* Nick_sMovieApp.swift */,
+				417CD9C227012FD8002C6F4E /* ContentView.swift */,
+				417CD9C327012FD9002C6F4E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		417CD9C927012FD9002C6F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417CD9C827012FD9002C6F4E /* Nick'sMovie.app */,
+				417CD9D027012FD9002C6F4E /* Nick'sMovie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417CD9CA27012FD9002C6F4E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				417CD9CB27012FD9002C6F4E /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		417CD9D127012FD9002C6F4E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				417CD9D227012FD9002C6F4E /* Info.plist */,
+				417CD9D327012FD9002C6F4E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417CD9C727012FD9002C6F4E /* Nick'sMovie (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417CD9DC27012FD9002C6F4E /* Build configuration list for PBXNativeTarget "Nick'sMovie (iOS)" */;
+			buildPhases = (
+				417CD9C427012FD9002C6F4E /* Sources */,
+				417CD9C527012FD9002C6F4E /* Frameworks */,
+				417CD9C627012FD9002C6F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nick'sMovie (iOS)";
+			productName = "Nick'sMovie (iOS)";
+			productReference = 417CD9C827012FD9002C6F4E /* Nick'sMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417CD9CF27012FD9002C6F4E /* Nick'sMovie (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417CD9DF27012FD9002C6F4E /* Build configuration list for PBXNativeTarget "Nick'sMovie (macOS)" */;
+			buildPhases = (
+				417CD9CC27012FD9002C6F4E /* Sources */,
+				417CD9CD27012FD9002C6F4E /* Frameworks */,
+				417CD9CE27012FD9002C6F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nick'sMovie (macOS)";
+			productName = "Nick'sMovie (macOS)";
+			productReference = 417CD9D027012FD9002C6F4E /* Nick'sMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417CD9BC27012FD7002C6F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					417CD9C727012FD9002C6F4E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					417CD9CF27012FD9002C6F4E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 417CD9BF27012FD7002C6F4E /* Build configuration list for PBXProject "Nick'sMovie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417CD9BB27012FD7002C6F4E;
+			productRefGroup = 417CD9C927012FD9002C6F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417CD9C727012FD9002C6F4E /* Nick'sMovie (iOS) */,
+				417CD9CF27012FD9002C6F4E /* Nick'sMovie (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417CD9C627012FD9002C6F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417CD9D827012FD9002C6F4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417CD9CE27012FD9002C6F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417CD9D927012FD9002C6F4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417CD9C427012FD9002C6F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417CD9D627012FD9002C6F4E /* ContentView.swift in Sources */,
+				417CD9D427012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417CD9CC27012FD9002C6F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417CD9D727012FD9002C6F4E /* ContentView.swift in Sources */,
+				417CD9D527012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		417CD9DA27012FD9002C6F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417CD9DB27012FD9002C6F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		417CD9DD27012FD9002C6F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYVM8W5U8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivardoibarra.Nick-sMovie";
+				PRODUCT_NAME = "Nick'sMovie";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417CD9DE27012FD9002C6F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYVM8W5U8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivardoibarra.Nick-sMovie";
+				PRODUCT_NAME = "Nick'sMovie";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417CD9E027012FD9002C6F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FYVM8W5U8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivardoibarra.Nick-sMovie";
+				PRODUCT_NAME = "Nick'sMovie";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		417CD9E127012FD9002C6F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FYVM8W5U8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nivardoibarra.Nick-sMovie";
+				PRODUCT_NAME = "Nick'sMovie";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417CD9BF27012FD7002C6F4E /* Build configuration list for PBXProject "Nick'sMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417CD9DA27012FD9002C6F4E /* Debug */,
+				417CD9DB27012FD9002C6F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417CD9DC27012FD9002C6F4E /* Build configuration list for PBXNativeTarget "Nick'sMovie (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417CD9DD27012FD9002C6F4E /* Debug */,
+				417CD9DE27012FD9002C6F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417CD9DF27012FD9002C6F4E /* Build configuration list for PBXNativeTarget "Nick'sMovie (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417CD9E027012FD9002C6F4E /* Debug */,
+				417CD9E127012FD9002C6F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417CD9BC27012FD7002C6F4E /* Project object */;
+}
