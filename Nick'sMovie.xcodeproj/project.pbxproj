@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,19 @@
 		417CD9D727012FD9002C6F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9C227012FD8002C6F4E /* ContentView.swift */; };
 		417CD9D827012FD9002C6F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417CD9C327012FD9002C6F4E /* Assets.xcassets */; };
 		417CD9D927012FD9002C6F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417CD9C327012FD9002C6F4E /* Assets.xcassets */; };
+		417CD9E4270131D6002C6F4E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 417CD9E3270131D6002C6F4E /* Kingfisher */; };
+		417CD9E627013240002C6F4E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9E527013240002C6F4E /* Movie.swift */; };
+		417CD9E727013240002C6F4E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9E527013240002C6F4E /* Movie.swift */; };
+		417CD9E92701328A002C6F4E /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9E82701328A002C6F4E /* StandardHomeMovie.swift */; };
+		417CD9EA2701328A002C6F4E /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9E82701328A002C6F4E /* StandardHomeMovie.swift */; };
+		417CD9EC2701330F002C6F4E /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9EB2701330F002C6F4E /* GlobalHelpers.swift */; };
+		417CD9ED2701330F002C6F4E /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9EB2701330F002C6F4E /* GlobalHelpers.swift */; };
+		417CD9EF27013496002C6F4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9EE27013496002C6F4E /* HomeView.swift */; };
+		417CD9F027013496002C6F4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9EE27013496002C6F4E /* HomeView.swift */; };
+		417CD9F2270137CE002C6F4E /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9F1270137CE002C6F4E /* HomeVM.swift */; };
+		417CD9F3270137CE002C6F4E /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9F1270137CE002C6F4E /* HomeVM.swift */; };
+		417CD9F527014E6C002C6F4E /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9F427014E6C002C6F4E /* TopMoviePreview.swift */; };
+		417CD9F627014E6C002C6F4E /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9F427014E6C002C6F4E /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,12 @@
 		417CD9D027012FD9002C6F4E /* Nick'sMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nick'sMovie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		417CD9D227012FD9002C6F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417CD9D327012FD9002C6F4E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		417CD9E527013240002C6F4E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		417CD9E82701328A002C6F4E /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		417CD9EB2701330F002C6F4E /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		417CD9EE27013496002C6F4E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		417CD9F1270137CE002C6F4E /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		417CD9F427014E6C002C6F4E /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417CD9E4270131D6002C6F4E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,12 @@
 			isa = PBXGroup;
 			children = (
 				417CD9CB27012FD9002C6F4E /* Info.plist */,
+				417CD9EE27013496002C6F4E /* HomeView.swift */,
+				417CD9F1270137CE002C6F4E /* HomeVM.swift */,
+				417CD9E527013240002C6F4E /* Movie.swift */,
+				417CD9E82701328A002C6F4E /* StandardHomeMovie.swift */,
+				417CD9EB2701330F002C6F4E /* GlobalHelpers.swift */,
+				417CD9F427014E6C002C6F4E /* TopMoviePreview.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -106,6 +132,9 @@
 			dependencies = (
 			);
 			name = "Nick'sMovie (iOS)";
+			packageProductDependencies = (
+				417CD9E3270131D6002C6F4E /* Kingfisher */,
+			);
 			productName = "Nick'sMovie (iOS)";
 			productReference = 417CD9C827012FD9002C6F4E /* Nick'sMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 417CD9BB27012FD7002C6F4E;
+			packageReferences = (
+				417CD9E2270131D6002C6F4E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 417CD9C927012FD9002C6F4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417CD9E92701328A002C6F4E /* StandardHomeMovie.swift in Sources */,
 				417CD9D627012FD9002C6F4E /* ContentView.swift in Sources */,
+				417CD9F2270137CE002C6F4E /* HomeVM.swift in Sources */,
+				417CD9EC2701330F002C6F4E /* GlobalHelpers.swift in Sources */,
+				417CD9EF27013496002C6F4E /* HomeView.swift in Sources */,
+				417CD9F527014E6C002C6F4E /* TopMoviePreview.swift in Sources */,
 				417CD9D427012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */,
+				417CD9E627013240002C6F4E /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417CD9EA2701328A002C6F4E /* StandardHomeMovie.swift in Sources */,
 				417CD9D727012FD9002C6F4E /* ContentView.swift in Sources */,
+				417CD9F3270137CE002C6F4E /* HomeVM.swift in Sources */,
+				417CD9ED2701330F002C6F4E /* GlobalHelpers.swift in Sources */,
+				417CD9F027013496002C6F4E /* HomeView.swift in Sources */,
+				417CD9F627014E6C002C6F4E /* TopMoviePreview.swift in Sources */,
 				417CD9D527012FD9002C6F4E /* Nick_sMovieApp.swift in Sources */,
+				417CD9E727013240002C6F4E /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +483,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		417CD9E2270131D6002C6F4E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		417CD9E3270131D6002C6F4E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 417CD9E2270131D6002C6F4E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 417CD9BC27012FD7002C6F4E /* Project object */;
 }
