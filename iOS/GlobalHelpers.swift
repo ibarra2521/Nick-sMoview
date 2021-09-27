@@ -5,7 +5,7 @@
 //  Created by Nivardo Ibarra on 9/26/21.
 //
 
-import Foundation
+import SwiftUI
 
 // MARK: - Just for testing propuse
 
@@ -17,3 +17,8 @@ let exampleMovie5 = Movie(id: UUID().uuidString, name: "Hannibal", thumbnailURL:
 let exampleMovie6 = Movie(id: UUID().uuidString, name: "Nick", thumbnailURL: URL(string: "https://picsum.photos/200/306")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"])
 
 let exampleMovies = [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6]
+
+
+extension LinearGradient {
+    static let blackOpacity = LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.0), Color.black.opacity(0.95)]), startPoint: .top, endPoint: .bottom)
+}
