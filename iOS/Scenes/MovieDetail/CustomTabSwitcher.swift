@@ -15,6 +15,8 @@ enum CustomTab: String {
 
 struct CustomTabSwitcher: View {
     @State private var currentTab = CustomTab.episodes
+    @Binding var showSeasonPicker: Bool
+    @Binding var selectedSeason: Int
     
     var tabs = [CustomTab]()
     var movie: Movie
@@ -49,9 +51,8 @@ struct CustomTabSwitcher: View {
             }
             switch currentTab {
             case .episodes:
-                Text("EPISODES")
+                EpisodesView(showSeasonPicker: $showSeasonPicker, selectedSeason: $selectedSeason, episodes: movie.episode ?? [])
             case .trailers:
-                //Text("Trailers")
                 TrailerList(trailers: movie.trailers)
             case .more:
                 MoreLikeThis(movies: movie.moreLikeThisMovies)
@@ -66,7 +67,7 @@ struct CustomTabSwitcher_Previews: PreviewProvider {
         ZStack {
             Color.black
                 .edgesIgnoringSafeArea(.all)
-            CustomTabSwitcher(tabs: [.episodes, .trailers, .more], movie: exampleMovie1)
+            CustomTabSwitcher(showSeasonPicker: .constant(false), selectedSeason: .constant(1), tabs: [.episodes, .trailers, .more], movie: exampleMovie1)
         }
     }
 }

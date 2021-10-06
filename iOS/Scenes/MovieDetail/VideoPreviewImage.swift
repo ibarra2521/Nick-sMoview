@@ -18,8 +18,7 @@ struct VideoPreviewImage: View {
         ZStack {
             KFImage(imageURL)
                 .resizable()
-                //.aspectRatio(contentMode: .fill)
-                .frame(height: 150)
+                .aspectRatio(contentMode: .fill)
             
             Button(action: {
                 showingVideoPlayer = true
